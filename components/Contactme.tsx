@@ -46,7 +46,7 @@ function Contactme({}: Props) {
                 <input  {...register('name')} placeholder='Name' className='contactinput' type="text" />
                 <input  {...register('email')} placeholder='Email' className='contactinput' type="emailt" />
             </div>
-            <input  {...register('subject')} placeholder='Subjecjt' className='contactinput' type="text" />
+            <input  {...register('subject')} placeholder='Subject' className='contactinput' type="text" />
             <textarea  {...register('message')} placeholder='Message' className='contactinput'></textarea>
             <button type="submit" className='text-bold text-lg bg-zinc-800 py-5 px-10 rounded-md'> Submit</button>
         </form>
