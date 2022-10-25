@@ -15,7 +15,7 @@ function Contactme({}: Props) {
   return (
     <motion.div 
     initial={{
-        opacity:0
+        opacity:0,
     }}
     whileInView={{
         opacity:1
