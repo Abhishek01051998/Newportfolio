@@ -20,7 +20,7 @@ function Project({}: Props) {
         opacity:1
     }}
     transition={{
-        duration:2
+        duration:1
     }}
      className=' flex flex-col relative h-screen  text-center md:text-left md:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
     <h3 className=' absolute top-24 uppercase tracking-[20px] text-white text-2xl px'>Projects</h3>

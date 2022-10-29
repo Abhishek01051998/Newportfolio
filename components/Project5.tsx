@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import Link from 'next/link'
 import React from 'react'
 import image from "./images/s.jpeg"
@@ -10,10 +11,28 @@ function Project5({}: Props) {
                 
                 <div className=' space-y-0 text px-0 md:px-10 max-w-6xl'>
                 <div className=' flex space-x-2 my-2 '>
-                    <img className=' w-25 h-25 rounded-full object bg-cover md:rounded-lg md:w-[400px] md:h-[250px] items-center' src= "https://github.com/Abhishek01051998/whatsapp/blob/main/Screenshot%202022-10-28%20at%2011.45.29%20PM.png?raw=true" />
+                <Link href="https://whatsapp-blond.vercel.app/">
+                    <motion.img className=' cursor-pointer w-25 h-25 rounded-full object bg-cover md:rounded-lg md:w-[400px] md:h-[250px] items-center' 
+                    inlist={{
+                      y:-300,
+                      opacity: 0,
+                    }}
+                    transition={{
+                      duration:1.2,
+                    }}
+                    viewport={{
+                      once:true,
+                    }}
+                    whileInView={{
+                      opacity:1,
+                      y:0,
+                    }}
+                    src= "https://i.ibb.co/749XfV4/s.png"
+                    alt=""
+                     /></Link>
                 </div>
                     <h4 className=' text-4xl font-semibold '>WhatsApp Clone </h4>
-                    <p className=' text-lg text-center md:text-left'>Build a Whatsapp Clone using </p>
+                    <p className=' text-lg text-center md:text-left'>1-1 Messaging, Live Status, Styled-Components, React.JS </p>
                     <div className=' flex  my-2 i'>
                 {/*Tech Useed */}
                 <img className=' h-10 w-10 rounded-full' 

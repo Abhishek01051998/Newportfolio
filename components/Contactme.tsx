@@ -24,8 +24,8 @@ function Contactme({}: Props) {
         duration:2
     }}
      className=' flex flex-col relative h-screen  text-center md:text-left md:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'>
-    <h3 className=' absolute top-24 uppercase tracking-[20px] text-white text-2xl px'>CONTACT ME</h3>
-    <div className=' flex flex-col space-y-10'>
+    <h3 className=' absolute top-20 uppercase tracking-[20px] text-white text-2xl px'>CONTACT ME</h3>
+    <div className=' flex flex-col space-y-5'>
         <h4 className='text-4xl font-semibold text-center '>I have got just what you Need.{"  "}<span className='text-grey-100'>Let's Talk</span></h4>
         <div className=' flex items-center  justify-center '>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
