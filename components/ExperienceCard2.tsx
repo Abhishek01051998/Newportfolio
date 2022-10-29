@@ -23,7 +23,7 @@ function ExperienceCard({}: Props) {
             once:true
         }}
         className='w-72 h-62 object-cover object-center xl:h-[200px] xl:w-[200px] '
-        src='https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-6/292439135_396531839175919_7175145601051356580_n.png?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=S6asDAG-pmgAX8zYUTs&_nc_ht=scontent-lga3-2.xx&oh=00_AT-cH2z1Y2kcHA--y3eJRg0jidO_3iKx4aNmZSK-uMuEDg&oe=635B862B'  
+        src='https://www.rutgers.edu/sites/default/files/styles/16x9_one_third_default_1x/public/2020-02/lg_SHIELD_REVWHITE.jpg?h=6dade3ba&itok=iRFLeZZ2'  
         alt='' />
         <div className=' px-0 md:px-10'>
             <h4 className=' text-4xl font-light ' >Teaching Assistant</h4>
